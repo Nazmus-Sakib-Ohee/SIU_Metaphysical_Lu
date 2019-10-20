@@ -30,9 +30,21 @@
                                             <span><i class="fas fa-calendar-alt"></i> &nbsp; {{$date->isoFormat('MMMM Do YYYY, h:mm:ss a')}}</span>
                                             
                                         </div>
-                                        <div class="post-setting-left">
-                                            <a href="#" class="btn btn-success" style="border-radius:0;"><i class="fas fa-bookmark" style="color:#fff"></i></a>
+                                             @auth
+                                            <div class="post-setting-left">
+                                                @php 
+                                                $userId=Auth::user()->id;
+                                                $wishCheck=\App\Wish::where('idea_id',$data->id)->where('user_id',Auth::user()->id)->exists();
+                                                
+                                            @endphp
+                                            @if($wishCheck)
+<a href="{{route('removeWish',$data->id)}}" class="btn btn-danger" style="border-radius:0;"><i class="fas fa-times-circle" style="color:#fff"></i></a>
+                                            @else 
+<a href="{{route('addWish',$data->id)}}" class="btn btn-success" style="border-radius:0;"><i class="fas fa-bookmark" style="color:#fff"></i></a>
+                                            @endif
+                                            
                                         </div>
+                                         @endauth
                                     </div>
                                 </div>
                             </div>

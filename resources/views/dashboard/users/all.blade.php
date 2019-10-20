@@ -39,7 +39,11 @@
                                     <a href="{{route('users.edit',$item->id)}}" style="color: #fff;" class=" btn  btn-info"
                                     >
                                     <span class="fas fa-edit"></span>
-                                    </a>  
+                                    </a> 
+                                     <a style="color: #fff;" class="DeleteContent btn btn-warning waves-effect"
+                                            data-id="{{$item->id}}" data-name="{{$item->name}}" data-pic="{{$item->image}}"data-url="{{route('users.delete')}}" >
+                                            <span class="fas fa-trash-alt"></span>
+                                            </a>
                                  
                                     
                                     </td>
@@ -63,6 +67,10 @@
                                     data-id="{{$item->id}}" data-name="{{$item->name}}" data-pic="{{$item->image}}"data-url="{{route('users.delete')}}" >
                                     <span class="fas fa-trash-alt"></span>
                                     </a>
+                                      <a style="color: #fff;" class="DeleteContent btn btn-warning waves-effect"
+                                            data-id="{{$item->id}}" data-name="{{$item->name}}" data-pic="{{$item->image}}"data-url="{{route('users.delete')}}" >
+                                            <span class="fas fa-trash-alt"></span>
+                                            </a>
                                     </td>
 
                                     </tr>

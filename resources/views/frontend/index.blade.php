@@ -20,9 +20,10 @@
                                 <div class="card-body">
                                     <div class="post-header-area">
                                         <div class="post-profile-img">
+
                                             @if(!$data->image == null)
-                                            
-                                              <img src="{{url('/storage/idea/'.$data->image)}}" alt="">
+                                           
+                                             
                                             @else
                                            
                                              @endif

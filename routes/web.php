@@ -45,6 +45,10 @@ Route::group(['middleware' => ['auth']], function () {
 
         Route::post('/comment/{id}','viewController@comment')->name('comment');
 
+
+Route::group(['middleware' => ['CheckAdmin']], function () {
+
+
         Route::get('/dashboard','DashboardController@index')->name('dashboard');  
         Route::get('/dashboard/{year}','DashboardController@analytics')->name('dashboard-analytics');  
 
@@ -95,6 +99,7 @@ Route::group(['middleware' => ['auth']], function () {
             //Idea MAnagement END  
 
         });
+          });
 
     
 });

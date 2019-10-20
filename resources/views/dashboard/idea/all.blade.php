@@ -65,7 +65,7 @@
                                     >
                                     <span class="fas fa-info"></span>
                                     </a>
-                                      <a style="color: #fff;" class="DeleteContent btn btn-danger btn-info"
+                                      <a style="color: #fff;" class="DeleteContent btn btn-danger btn-info "
                                       data-id="{{$item->id}}" data-name="{{$item->title}}" data-pic="{{$item->image}}"data-url="{{route('idea.delete')}}" >
                                       <span class="fas fa-trash-alt"></span>
                                       </a> 

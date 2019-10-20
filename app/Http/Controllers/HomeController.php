@@ -106,6 +106,7 @@ Idea::find ($id)->increment('view');
     $q=Input::get ( 'query' );
     $logic->where ( 'users.name', 'LIKE', '%' . $q . '%' )
     ->orWhere ( 'ideas.title', 'LIKE', '%' . $q . '%' )
+    ->orWhere ( 'ideas.description', 'LIKE', '%' . $q . '%' )
     ->orWhere ( 'ideas.status', 'LIKE', '%' . $q . '%' );
     })
     ->select('ideas.*','users.name')

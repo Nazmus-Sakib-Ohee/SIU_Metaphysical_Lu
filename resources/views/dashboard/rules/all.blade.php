@@ -38,7 +38,7 @@
                                             >
                                             <span class="fas fa-edit"></span>
                                             </a>  
-                                            <a style="color: #fff;" class="DeleteContent btn btn-danger btn-info"
+                                            <a style="color: #fff;" class="DeleteContent btn btn-warning waves-effect"
                                             data-id="{{$item->id}}" data-name="{{$item->role}}" data-pic="{{$item->image}}"data-url="{{route('roles.delete')}}" >
                                             <span class="fas fa-trash-alt"></span>
                                             </a>
@@ -58,7 +58,7 @@
                                             >
                                             <span class="fas fa-edit"></span>
                                             </a>  
-                                            <a style="color: #fff;" class="DeleteContent btn btn-danger btn-info"
+                                            <a style="color: #fff;" class="DeleteContent btn btn-warning waves-effect"
                                             data-id="{{$item->id}}" data-name="{{$item->role}}" data-pic="{{$item->image}}"data-url="{{route('roles.delete')}}" >
                                             <span class="fas fa-trash-alt"></span>
                                             </a>
