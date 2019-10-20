@@ -1,0 +1,40 @@
+
+.errorCustom{
+    color: red;
+    }
+    
+    .form-text-error{
+        color: red !important;
+    }
+    .side_form{
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .navbar-logo a img {
+        width: 100px;
+        margin: 0 auto;
+        position: relative;
+        left: 50%;
+    }
+    .idea_info p{
+
+        }
+    .idea_txt p{
+        font-size: 22px;
+    }
+    .idea_desc strong{
+        font-size: 22px;
+    }
+    
+    .idea_desc p{
+        font-size: 18px;
+    }
+
+    .idea_present strong{
+        font-size: 22px;
+
+    }
+    .idea_info img{
+        width: 100%;
+    }

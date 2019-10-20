@@ -1,0 +1,38 @@
+
+#table1 + input {
+    box-shadow     : inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #428bca;
+    outline        : #428bca auto 5px;
+    outline-offset : 0;
+    border         : none;
+}
+#table1 td:focus {
+    box-shadow : inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #428bca;
+    outline    : #428bca auto 5px;
+}
+.fixed-table-toolbar .btn-group > .btn-group:last-child > .btn {
+    border-radius : 0;
+}
+.open > .dropdown-menu {
+    animation : none;
+}
+.table-responsive input {
+    position : relative !important;
+}
+
+.export .dropdown-menu li
+{
+    padding-left: 15px;
+}
+.owl-carousel {
+    -ms-touch-action: pan-y;
+    touch-action: pan-y;
+    }
+    or
+    .owl-carousel {
+    -ms-touch-action: none;
+    touch-action: none;
+    }
+
+    .j-wrapper {
+     padding: 0px 0px; 
+}
