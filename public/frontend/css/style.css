@@ -755,6 +755,7 @@ ul.select2-results__options li{
 .custom-search{
     border-radius: 0;
     border: 1px solid #62b56b75;
+
 }
 
 .custom-search:focus {
@@ -813,4 +814,31 @@ ul.select2-results__options li{
 }
 .post-setting-left a{
     text-decoration: none;
+}
+
+
+.like-comment button {
+    background: transparent;
+    color: #4ba846;
+    border: 0;
+}
+.like-comment button:hover {
+    background: transparent;
+    color: #4ba846;
+    border: 0;
+}
+div#custom-scroll {
+    padding: 13px;
+}
+div#postTable p {
+    margin: 5px;
+}
+.name-with-post-time p {
+    font-size: 27px;
+    margin-left: -15px;
+}
+.name-with-post-time span {
+    font-weight: 200;
+    font-size: 13px;
+    margin-left: -9px;
 }
