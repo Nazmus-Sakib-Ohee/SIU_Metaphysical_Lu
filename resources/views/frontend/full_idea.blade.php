@@ -14,12 +14,7 @@
                             <div class="card-body">
                                 <div class="post-header-area">
                                     <div class="post-profile-img">
-                                        @if(!$data->image == null)
-                                        
-                                        <img src="{{url('/storage/idea/'.$data->image)}}" alt="">
-                                        @else
-                                        
-                                        @endif
+                                        <img src="{{asset('frontend/image/Profile_avatar_placeholder_large.png')}}" class="card-img-top" alt="Image">
                                         
                                         <div class="name-with-post-time">
                                             <p><a class="post-owner-name" href="#">{{$data->user->name}}</a></p>
@@ -59,6 +54,13 @@
                                         
                                     </ul>
                                 </div>
+
+                                 @if(!$data->image == null)
+                                           
+                                             <img src="{{asset('storage/idea/'.$data->image)}}" style="width: 100%;border:8px solid #ededed;border-radius: 5px;">
+                                            @else
+                                           
+                                             @endif
                                 
                                 <p>{!!$data->description!!}
                                 </p>

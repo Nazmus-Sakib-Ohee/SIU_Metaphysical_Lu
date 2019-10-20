@@ -25,7 +25,7 @@
                                   <thead>
                                   <tr>
                                       <th data-field="User Name" data-sortable="false">User Name</th>
-                                      <th data-field="Total Posts" data-sortable="false">Total Votes</th>
+                                      <th data-field="Total Ideas" data-sortable="false">Total Ideas</th>
                                      
                                   </tr>
                                   </thead>
