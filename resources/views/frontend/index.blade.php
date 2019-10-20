@@ -20,7 +20,7 @@
                                 <div class="card-body">
                                     <div class="post-header-area">
                                         <div class="post-profile-img">
- <img src="frontend/image/Profile_avatar_placeholder_large.png" class="card-img-top" alt="Image">
+ <img src="{{asset('frontend/image/Profile_avatar_placeholder_large.png')}}" class="card-img-top" alt="Image">
                                            
                                            
                                             <div class="name-with-post-time">

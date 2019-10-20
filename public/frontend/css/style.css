@@ -72,13 +72,15 @@ a.navbar-brand{
 .navbar{
     padding: 0 !important;
 }
-a.navbar-brand{
+a.navbar-brand {
     font-family: 'Ubuntu Mono', monospace;
     font-weight: bolder;
-    font-size: 33px;
+    font-size: 25px;
     line-height: 0;
     padding: 0;
 }
+
+
 
 .profileImage ul{
     float: left;
@@ -841,4 +843,9 @@ div#postTable p {
     font-weight: 200;
     font-size: 13px;
     margin-left: -9px;
+}
+
+.navbar-toggler-icon {
+
+    background: black; 
 }

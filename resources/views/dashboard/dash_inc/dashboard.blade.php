@@ -35,7 +35,7 @@
                                         <div class="col">
                                             <h6 class="m-b-0">All Ideas</h6>
                                             <p>{{$totalIdea}} Ideas</p>
-                                            <p class="m-b-0">Total number of questions</p>
+                                            <p class="m-b-0">Total number of Ideas</p>
                                         </div>
                                     </div>
                                 </div>

@@ -12,7 +12,7 @@
                         <div class="cardDesign">
                             <div class="card-group">
                                 <div class="card br-zero">
-                                    <img src="frontend/image/Profile_avatar_placeholder_large.png" class="card-img-top" alt="Image">
+                                    <img src="{{asset('frontend/image/Profile_avatar_placeholder_large.png')}}" class="card-img-top" alt="Image">
                                     <div class="card-body">
                                         <h5 class="card-title">{{Auth::user()->name}}</h5>
                                         <small>User</small>
